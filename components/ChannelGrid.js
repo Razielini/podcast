@@ -2,6 +2,7 @@ import { Link } from '../routes'
 import slug from '../helpers/slug'
 
 function ChannelGrid({ channels }) {
+  console.log('channels ::', channels)
     return (
       <div>
         <div className="channels">
